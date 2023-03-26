@@ -1,0 +1,43 @@
+# Node_js-Assignment
+QUESTION 1
+
+Monolithic Architechture: monolithic architecture is the traditional unified model for the design of a software program. Monolithic, in this context, means "composed all in one piece".
+
+Monolithic architecture refers to a software architecture where an entire application is built as a single, self-contained unit. In this architecture, all the components of the application, such as the user interface, application logic, and data access layers, are tightly coupled and interdependent.
+
+Monolithic applications are single-tiered, which means multiple components are combined into one large application. Consequently, they tend to have large codebases, which can be cumbersome to manage over time.
+
+QUESTION 2
+Microservices refers to an architectural style for developing applications that allows a large application to be separated into smaller independent parts, with each part having its own realm of responsibility. To serve a single user request, a microservices-based application can call on many internal microservices to compose its response.
+
+It is like the opposite of monolithic architecture because it is not single tiered but cut or separated into several small chunks and each perform their role independently to create the software.
+
+A microservices architecture is a type of application architecture where the application is developed as a collection of services. It provides the framework to develop, deploy, and maintain microservices architecture diagrams and services independently.
+
+QUESTION 3
+
+I prefer Microservices architecture because it emphasizes DevOps principles, as each service can be developed, tested, and deployed independently by its own team. This allows for greater agility and faster time-to-market, as changes can be made quickly and easily without affecting the entire application. These architectures allow for easier maintenance, deployment, and scalability, making them a popular choice for modern software development.
+
+Monolithic architechture however requires that each associated components be present for code to be executed or compiled and for the software to run, this can lead to longer development cycles and make it more difficult to scale the application.
+While monolithic architecture is still commonly used, it is often being replaced by more modular, scalable architectures, such as microservices or serverless computing.
+
+QUESTION 4
+
+Node. js runs JavaScript code in a single thread, which means that your code can only do one task at a time. However, Node. js itself is multithreaded and provides hidden threads through the libuv library, which handles I/O operations like reading files from a disk or network requests.
+
+Node.js also provides a way to create child processes, which can be used to execute code in separate threads or processes, and communicate with the main Node.js process through inter-process communication mechanisms like pipes or sockets. This enables Node.js to take advantage of multi-core processors and improve performance for compute-intensive tasks.
+
+In summary, while Node.js is not multithreaded by default, it provides a concurrency model that allows it to handle multiple requests simultaneously and take advantage of multi-core processors for compute-intensive tasks.
+
+QUESTION 5
+
+REPL stands for "Read-Evaluate-Print-Loop". It is a simple interactive programming environment that allows users to type code and immediately see the results.
+
+QUESTION 6
+const name = "Theresa Abutu";
+const language = "JavaScript";
+const future = "In the next year, I see myself becoming more proficient in " + language + " and becoming a very good backend engineer.";
+
+console.log("My name is " + name + ".");
+console.log("My preferred programming language is " + language + ".");
+console.log(future);
